@@ -26,4 +26,6 @@ D---创建分支
   git checkout branchName ---切换分支
 2.git remote ---查看当前远程分支
   git remote -v ---详细查看分支
+  
+这一步测试 解决冲突问题
 
