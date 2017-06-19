@@ -24,4 +24,6 @@ D---创建分支
 1.git checkout -b branchName  ---创建并且换分支
   git branch branchName  ---创建分支
   git checkout branchName ---切换分支
+2.git remote ---查看当前远程分支
+  git remote -v ---详细查看分支
 
