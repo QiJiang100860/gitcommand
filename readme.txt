@@ -6,8 +6,8 @@ A---本地仓库基本操作
 4.git diff ---查看缓存区文件和仓库文件异同
 5.git log ---查看提交日志记录
 6.git log ---pretty=oneline ---以单行模式查看日志记录
-7.git reset ---hard HEAD^ --返回到上一版本
-8.git reset ---hard HEAD~100 --返回到之前100个版本
+7.git reset ---hard HEAD^ --返回到上一版本 “HEAD的指向就是当前的分支”
+8.git reset ---hard HEAD~100 --返回到之前100个版本  “HEAD的指向就是当前的分支”
 9.git reset ---hard 122ded --(注：122ded只是版本id的缩写)直接返回到指定版本
 10.git reflog ---查看提交记录commit注释
 11.git checkout -- fileName ---(注：fileName是文件名字包括后缀)当前文件撤回上一次状态，包括git add到缓存区，和commit提交到仓库的状态
@@ -20,4 +20,8 @@ B---关联远程仓库
 C---从远程仓库clone一个本地仓库
 1.在远程新建仓库（见github略）
 2.git clone git@server-name:path/gitProName.git
+D---创建分支
+1.git checkout -b branchName  ---创建并且换分支
+  git branch branchName  ---创建分支
+  git checkout branchName ---切换分支
 
