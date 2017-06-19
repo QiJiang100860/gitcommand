@@ -25,3 +25,4 @@ D---创建分支
   git branch branchName  ---创建分支
   git checkout branchName ---切换分支
 
+试试是不是冲突了。。
