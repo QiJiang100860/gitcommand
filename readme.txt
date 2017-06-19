@@ -17,4 +17,7 @@ B---关联远程仓库
 1.git remote add origin git@server-name:path/gitProName.git  --关联远程仓库
 2.git push -u origin master --第一次推送master分支内容
 3.git push origin master --每次本地提交完成（git commit -m ""之后），需要的话可以更新远程仓库
+C---从远程仓库clone一个本地仓库
+1.在远程新建仓库（见github略）
+2.git clone git@server-name:path/gitProName.git
 
